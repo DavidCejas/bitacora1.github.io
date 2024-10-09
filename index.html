@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main>
+        <header id="#top">
+
+        </header>
+        <nav>
+            <a href="#html">HTML</a>
+            <a href="#txt">TEXTO</a>
+            <a href="#imgs">IMAGENES</a>
+            <a href="#enlc">ENLACES</a>
+            <a href="#css">CSS</a>
+            <a href="#prcs">PROCESO</a>
+        </nav>
+        <div class="inicio">
+            <a href="#top"><i class='fa fa-angle-double-up'></i> Inicio</a>
+        </div>
+        <section>
+            <div id="html" class="h1">
+                <h1>
+                    HTML
+                </h1>
+            </div>
+            <div class="izq">
+                <h2>Ideas principales</h2>
+                <div class="textoizq">
+                    <ul>
+                        <li>La mayoria de las etiquetas deben tener un inicio y un fin.</li>
+                        <li>El inicio de las etiquetas es normal, es decir que lleva los dos caracteres y dentro de
+                            estos se encuentra el nombre.</li>
+                        <li>Para el cierre de la etiqueta antes de escribir el nombre de la etiqueta debemos escribir
+                            una diagonal.</li>
+                        <li>Entre el inicio y el fin de la etiqueta debe estar el contenido.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="der">
+                <h2>Apuntes</h2>
+                <div class="textoder">
+                    <p>HTML es un lenguaje de marcado utilizado para la creacion de paginas web. En este lenguaje de
+                        marcado se utilizan comandos llamados etiquetas, las cuales nos sirven para distintos usos como
+                        lo son colocar secciones, crear enlaces, colocar texto e imagenes, entre muchas otras cosas. Las
+                        etiquetas estan estructuradas por un inicio y final en algunos casos, estas deben ser escritas
+                        entre dos caracteres, de lo contrario, no funcionaran.</p>
+                </div>
+                <div class="foto">
+                    <img src="imgs/html4.png" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <h2>Resumen</h2>
+                <div class="textobtm">
+                    <p>HTML es un lenguaje que utiliza las etiquetas para generar distintos elementos, la manera de
+                        usarse es muy sencilla y practica para aquellos que lo utilizan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="txt" class="h1">
+                <h1>
+                    Texto en HTML
+                </h1>
+            </div>
+            <div class="izq">
+                <h2></h2>
+                <div class="textoizq">
+                    <ul>
+                        <li>Se conforma por encabezados, parrafos y listas los cuales nos ayudan a colocar el contenido
+                            de una
+                            manera estructurada.</li>
+                        <li>Una de las principales funciones de HTML es dar al texto estructura y significado de forma
+                            que un navegador pueda mostrarlo correctamente.</li>
+                        <li>Existen tanto listas ordenadas (las cuales enumeran los elementos), como las listas
+                            desordenadas (las cuales solamente muestran un punto al lado del elemento).</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="der">
+                <h2></h2>
+                <div class="textoder">
+                    <p>En HTML tenemos distintas maneras de colocar texto. De primera mano tenemos los encabezados los
+                        cuales son escritos como "<.h1>" hasta el "<.h6>", conforme el numero es mas grande este se
+                                vuelve un subtitulo del anterior. Es recomendable solamente usar un "<.h1>" por pagina.
+                    </p>
+                    <p>En HTML, cada parrafo tiene que estar delineado por un elmento"<.p>
+                            <. /p>".</p>
+                    <p>En HTML existen dos tipos de listas, la desordenada muestra a los elementos marcados en la parte
+                        izquierda por un simbolo, las ordenadas muestra los elementos de manera enumerada.</p>
+
+                </div>
+                <div class="foto">
+                    <img src="imgs/texto.png" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <h2></h2>
+                <div class="textobtm">
+                    <p>HTML nos ofrece una manera sencilla de estructurar el texto a partir de dividir el contenido en
+                        distintas etiquetas que a la vez tienen sus propias variantes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="imgs">
+            <div id="html" class="h1">
+                <h1>
+                    Imagenes en HTML
+                </h1>
+            </div>
+            <div class="izq">
+                <h2>Ideas principales</h2>
+                <div class="textoizq">
+                    <ul>
+                        <li>Para colocar imagenes debemos contar con una carpeta hermana de nuestro index, ambos deben
+                            estar en el mismo folder de proyecto. Tambien podemos colocar imagenes en liena utilizando
+                            el url de la imagen.</li>
+                        <li>El atributo "src" se utiliza para establecer la ruta por la cual se colocara la imagen.</li>
+                        <li>El atributo "width" determina el ancho de la imagen.</li>
+                        <li>El atributo "alt" determina el alto de la imagen.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="der">
+                <h2>Apuntes</h2>
+                <div class="textoder">
+                    <p>La imagenes en la web no solo sirven para cuestiones esteticas, las imagenes cuentan historias,
+                        ayudan a los buscadores a indexar las paginas, brindan a los usuarios confinza y buena
+                        experiencia de usuario.</p>
+                    <p>Las imagenes proporcionan un descanso en la lectura y muchas veces sirven de explicacion grafica
+                        para lo que se esta contando.</p>
+                    <p>Las imagenes pueden ser ajustadas con los atributos "width" y ""alt.</p>
+                    <p>El atributo "src" es desde donde asignaremos la imagen al index, podemos colocar una ruta desde
+                        una carpeta especial para imagenes o colocar la url de una imagen en linea.</p>
+                </div>
+                <div class="foto">
+                    <img src="imgs/imagenhtml2.png" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <h2>Resumen</h2>
+                <div class="textobtm">
+                    <p>En HTML podemos colocar imagenes y alterar sus dimensiones segun se requiera, esto nos ayuda a
+                        moldear la estetica y mejorar la experiencia del usuarion</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="enlc">
+            <div id="html" class="h1">
+                <h1>
+                    Enlaces en HTML
+                </h1>
+            </div>
+            <div class="izq">
+                <h2>Ideas principales</h2>
+                <div class="textoizq">
+                    <ul>
+                        <li>Los links cuentan con estados los cuales nos ayudan a identificar si el link subrayado ya ha
+                            sido visitado anteriormente o esta activo. Esto puede ser modificado utilizando CSS.</li>
+                        <li>Podemos utilizar el atributo "img" para colocar un link como imagen.</li>
+                        <li>Los atributo target especifican donde se abrira el documento vinculado y puede tener los
+                            siguientes valores
+                            <ol>
+                                <li>_self: Predeterminado. Abre el documento en la misma ventana.</li>
+                                <li>_blank: Abre el documento en una nueva pestaña.</li>
+                                <li>_parent: Abre el documento en el marco primario.</li>
+                                <li>_top: Abre el documento en el cuerpo de la ventana.</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="der">
+                <h2>Apuntes</h2>
+                <div class="textoder">
+                    <p>La sintaxis de un link es la siguiente:</p>
+                    <ol>
+                        <li>Apertura de la etiqueta: a</li>
+                        <li>Atributo de destino: href=</li>
+                        <li>Destino: "url"</li>
+                        <li>Parte visible para el usuario: Link</li>
+                        <li>Cierre de la etiqueta: /a</li>
+                        <p>Los links pueden contener atributos como "title" el cual nos ayuda a especificar informacion
+                            adicional del elemento.</p>
+                        <p>El atributo "target" ayuda a especificar en donde se abriar el documento vinculado al link,
+                            puede ser tanto en el mismo documento o abrir uno nuevo.</p>
+                    </ol>
+                </div>
+                <div class="foto">
+                    <img src="imgs/enlaces.png" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <h2>Resumen</h2>
+                <div class="textobtm">
+                    <p>En HTML podemos colocar links de distintas manera, ya sea como titulos, imagenes o simple texto.
+                        Esto nos ayuda a generar una pagina mas dinamica a partir de la modificacion de los atributos
+                        como target o title.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="css">
+            <div id="html" class="h1">
+                <h1>
+                    CSS
+                </h1>
+            </div>
+            <div class="izq">
+                <h2>Ideas principales</h2>
+                <div class="textoizq">
+                    <ul>
+                        <li>Las hojas de estilo de cascada o CSS definen la apariencia de un documento escrito en un
+                            lenguaje de marcado.</li>
+                        <li>Son un mecanismo simple para agregar estilo o diseño por ejemplo, fuentes, colores,
+                            espaciado a documentos web.</li>
+                        <li>Existen varias maneras de agregar el estilo de CSS en el HTML:
+                            <ol>
+                                <li>Hoja de estilo incrustada: Puede incrustarse en el docmento con la etiqueta "style"
+                                    el cual se coloca en el "head" del documento.</li>
+                                <li>Hoja de estilo en linea: Puede usarse estilos en linea mediante el atributo style.
+                                    Este atributo puede aplicarse en culquier elemeno HTML.</li>
+                                <li>Hoja de estilo externa: Una hoja de estilo ecterna puede ser enlazada a un documento
+                                    HTML mediante el elemento "link". La etiqueta "link" se coloca en el "head" del
+                                    documento. </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="der">
+                <h2>Apuntes</h2>
+                <div class="textoder">
+                    <p>Las hojas de estilo en cascada llamadas CSS (Cascading Style Sheets) son un lemguaje que define
+                        la apariencia que tendra nuestro documento HTML. Son un mecanismo simple para agregar estilo o
+                        diseño de ejemplo. Asi los elementos de la pagina web creados con HTML se les dara la apariencia
+                        que se desee utilizando CSS: formas, tamaños, colores, margenes, tipos de letra, etc.</p>
+                </div>
+                <div class="foto">
+                    <img src="imgs/CSS.png" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <h2>Resumen</h2>
+                <div class="textobtm">
+                    <p>CSS es un lenguaje que nos ayuda a darle estetica a nuestro documento HTML a partir de distintas
+                        maneras como fuentes, colores, formas, etc.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="prcs">
+            <div id="html" class="h1">
+                <h1>
+                    Proceso de diseño
+                </h1>
+            </div>
+            <div class="izq">
+                <h2>Ideas principales</h2>
+                <div class="textoizq">
+                    <ul>
+                        <li>El Diseño Web Centrado en el Usuario: Se caracteriza por asumir que too proceso de diseño
+                            web debe estar conducido por el usuario y sus necesiadades.</li>
+                        <li>Planificacion:En esta etapa se identifican los objetivos del sitio y las necesidades o
+                            requerimientos de la audicencia potencial.</li>
+                        <li>Benchamrking: Es una manera de detallar, observar y evaluar todas aquellas paginas web
+                            calificadas como los mejores que se encuentre en la red, con la finalidad de diseñar uan
+                            forma que permita crear un producto de calidad</li>
+                        <li>Modelado del usuario: Las "personas" son descripciones en forma de narrativa de usuarios, a
+                            los que se les da una identidad inventada.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="der">
+                <h2>Apuntes</h2>
+                <div class="textoder">
+                    <p>Para hacer un proceso de diseño de la manera correcta es necesario cumplir con ciertas fases por
+                        las que el proyecto debe pasar, tanto de investigacion como de experimentacion. La primera fase
+                        (El proceso de Diseño Web Centrado en el Usuario) se centra en la planificacion del diseño y del
+                        tipo de usuarios al que estara destiando el sitio web. La segunda fase (Planificacion) trata de
+                        identificar los objetivos del sitio asi como las necesidades de la audiencia potencial. La
+                        tercera fase (Benchmarking) se centra en la investigacion de paginas web similares entre si para
+                        generar una idea de lo que se quiere hacer. La cuarta fase (Modelado del usuario) se centra en
+                        crear "personas" con la cuales se lograra identificar una narrativa y necesidades.</p>
+                </div>
+                <div class="foto">
+                    <img src="imgs/proceso.png" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <h2>Resumen</h2>
+                <div class="textobtm">
+                    <p>El proceso de diseño es donde se generan todas las ideas y se identifican las necesiades y
+                        requerimientos de los usuarios a los que esta destinada la pagina o sitio web. </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
